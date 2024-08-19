@@ -21,7 +21,7 @@ const Signup = () => {
       password: user.password
     };
 
-    fetch('http://localhost:8080/register', {
+    fetch(`${import.meta.env.VITE_BACKEND_API_URI}/auth/register`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

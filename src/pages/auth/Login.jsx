@@ -20,7 +20,7 @@ const Login = () => {
             password: user.password
         };
 
-        fetch('http://localhost:8080/login', {
+        fetch(`${import.meta.env.VITE_BACKEND_API_URI}/auth/login`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

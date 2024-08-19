@@ -4,6 +4,7 @@ import { GoPlusCircle } from 'react-icons/go'
 import { IoIosCloseCircleOutline } from 'react-icons/io';
 import AddExams from '../../components/admin/AddExams';
 import AddSubjects from '../../components/admin/AddSubjects';
+import AddChapter from '../../components/admin/AddChapters';
 
 const AdminDash = () => {
 
@@ -15,6 +16,9 @@ const AdminDash = () => {
           <div className="">
             <AddExams/>
             <AddSubjects/>
+          </div>
+          <div className="">
+            <AddChapter/>
           </div>
         </div>
       </div>

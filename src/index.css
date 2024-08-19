@@ -12,6 +12,6 @@
 
 @layer components {
   .cont {
-      @apply sm:max-w-[90%] md:max-w-[80%] mx-auto px-3;
+      @apply sm:max-w-[90%] md:max-w-[80%] mx-auto w-full px-3;
   }
 }
